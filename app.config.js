@@ -76,6 +76,7 @@ export default {
       eas: {
         projectId: "a7f88d3e-b0a6-4876-af52-4c68dfffbc4d",
       },
+      storybookEnabled: process.env.STORYBOOK_ENABLED,
     },
     owner: "grodthehippy",
     updates: {

@@ -1,8 +1,9 @@
 import { Stack } from "expo-router";
 
 import { StatusBar } from "expo-status-bar";
+import Constants from "expo-constants";
 
-export default function RootLayout() {
+function RootLayout() {
   return (
     <>
       <Stack>
@@ -13,3 +14,11 @@ export default function RootLayout() {
     </>
   );
 }
+
+let AppEntryPoint = RootLayout;
+
+if (Constants.expoConfig.extra.storybookEnabled === "true") {
+  AppEntryPoint = require("../.storybook").default;
+}
+
+export default AppEntryPoint;
