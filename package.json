@@ -10,13 +10,18 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
+    "test:ci": "jest --passWithNoTests",
     "lint": "expo lint",
     "storybook-generate": "sb-rn-get-stories",
     "storybook": "STORYBOOK_ENABLED='true' expo start",
     "storybook:android": "STORYBOOK_ENABLED='true' expo start --android --go"
   },
   "jest": {
-    "preset": "jest-expo"
+    "preset": "jest-expo",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/app-example/"
+    ]
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.4",
