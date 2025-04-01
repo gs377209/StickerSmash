@@ -30,7 +30,7 @@
     "@storybook/addon-ondevice-backgrounds": "^8.6.2",
     "@storybook/addon-ondevice-notes": "^8.6.2",
     "dom-to-image": "^2.6.0",
-    "expo": "^52.0.41",
+    "expo": "^52.0.42",
     "expo-blur": "~14.0.3",
     "expo-constants": "~17.0.5",
     "expo-dev-client": "~5.0.14",
