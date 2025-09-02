@@ -72,7 +72,7 @@
     "@types/react-test-renderer": "^19.1.0",
     "@typescript-eslint/eslint-plugin": "^8.32.0",
     "babel-loader": "^10.0.0",
-    "eslint": "^8.57.1",
+    "eslint": "^9.34.0",
     "eslint-config-expo": "~9.2.0",
     "eslint-plugin-expo": "^0.1.4",
     "eslint-plugin-react-hooks": "^5.2.0",
